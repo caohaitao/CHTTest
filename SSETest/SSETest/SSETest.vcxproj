@@ -137,6 +137,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="double_add_test.cpp" />
+    <ClCompile Include="double_mul_test.cpp" />
+    <ClCompile Include="float_add_test.cpp" />
+    <ClCompile Include="float_mul_test.cpp" />
+    <ClCompile Include="int_add_test.cpp" />
+    <ClCompile Include="int_mul_test.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

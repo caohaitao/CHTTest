@@ -2,3 +2,5 @@
 *.db
 .vs
 *.filters
+Debug
+Release
