@@ -103,6 +103,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -155,6 +156,7 @@
     <ClCompile Include="int_add_test.cpp" />
     <ClCompile Include="int_mul_test.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sqrt_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />

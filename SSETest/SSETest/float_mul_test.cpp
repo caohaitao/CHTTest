@@ -193,6 +193,7 @@ static float sse_256_mul_loop4(float * a, float * b, int n)
 int float_mul_test(int argc, char ** argv)
 {
         int n = 40000;
+        printf("n=%d\n", n);
         float * a = (float*)TAlignAlloc(sizeof(float)*n, 16);
         for (int i = 0; i < n; i++)
         {

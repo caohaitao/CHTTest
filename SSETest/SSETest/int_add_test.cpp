@@ -117,7 +117,7 @@ static int sse_add_loop4(int *a, int n) {
 int int_add_test(int argc, char ** argv)
 {
         srand(time(0));
-        int n = (rand() % 1000)*100000;
+        int n = 40000;
         printf("n=%d\n", n);
         int * a = (int*)TAlignAlloc(sizeof(int)*n, 16);
         for (int i = 0; i < n; i++)

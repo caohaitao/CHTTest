@@ -74,6 +74,7 @@ static int sse_mul(int * a, int * b, int n)
 int int_mul_test(int argc, char ** argv)
 {
         int n = 40000;
+        printf("n=%d\n", n);
         int * a = (int*)TAlignAlloc(sizeof(int)*n, 16);
         for (int i = 0; i < n; i++)
         {
